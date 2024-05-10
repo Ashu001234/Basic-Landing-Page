@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#first {
+    width: 100%;
+   min-height: 60vh;
+
+    background-image: url(https://media.istockphoto.com/id/159228472/video/dark-blue-stadium-stands-background-loop.jpg?s=640x640&k=20&c=sIM90KkoJMlnmnw_nx1fiuYt7LeeZa5f8zrmqb9KJlE=);
+    background-size: cover;
+    background-position: 50% 60%;
+
+}
+
+#second {
+    width: 100%;
+    min-height: 40vh;
+    background-color: red;
+    display: flex;
+}
+
+#sport1 {
+    width: 25%;
+    min-height: inherit;
+    background-image: url(https://w0.peakpx.com/wallpaper/384/965/HD-wallpaper-sunil-chhetri-abstract-art-india-national-team-soccer-footballers-chhetri-neon-lights-indian-football-team.jpg);
+    background-size: cover;
+}
+
+#sport2 {
+    width: 25%;
+min-height: inherit;
+    background-image: url(https://w0.peakpx.com/wallpaper/140/237/HD-wallpaper-allie-long-2020-us-national-team-female-soccer-alexandra-linsley-long-footballers-neon-lights-us-womens-national-soccer-team.jpg);
+    background-size: cover;
+}
+
+#sport3 {
+    width: 25%;
+ min-height: inherit;
+    background-image: url(https://w0.peakpx.com/wallpaper/641/36/HD-wallpaper-leo-messi-2020-argentina-barca-barcelona-blue-brazil-elbis42-football-nike-sport.jpg);
+    background-size: cover;
+
+}
+
+#sport4 {
+    width: 25%;
+   min-height: inherit;
+    background-image: url(https://wallpapercave.com/wp/wp12225361.jpg);
+    background-size: cover;
+}
+
+#box {
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+#text {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    bottom: 20%;
+    padding: 0 10vw;
+
+
+
+}
+
+#text h1 {
+    color: blue;
+    font-size: 6vw;
+    font-weight: 800;
+}
+
+#textr {
+
+    color: skyblue;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#textr p {
+    font-size: 12px;
+    width: 40%;
+}
+
+#icons i {
+    color: aqua;
+}
+
+ @media(max-width:500px){
+    #box #text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+     #box #text #textr{
+        flex-direction: column;
+        align-items:flex-start ;
+     }
+     #box #text #textr p{
+        width: initial;
+        margin-top: 20px;
+     }
+     #box #text #textr #icons{
+margin-top: 30px;
+     }
+     #text h1{
+         font-size: 10vw;
+     }
+      #second{
+        flex-direction: column;
+      }
+      #sport1{
+        width: 100%;
+      }
+      #sport2{
+        width: 100%;
+      }
+      #sport3{
+        width: 100%;
+      }
+       #sport4{
+        width: 100%;
+      }
+ }
